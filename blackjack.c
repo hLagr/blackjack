@@ -71,14 +71,14 @@ void start(){
         printf("\nDu vann!\n");
     }
     else if(dealP > playP){
-        printf("\nDu förlorade\n");
+        printf("\nDu förlorade!\n");
     }
     else{
         if(dealP > 16 && dealP < 20){
-            printf("\nDu förlorade\n");
+            printf("\nDu förlorade!\n");
         }
         else{
-            printf("\nOavgjort\n");
+            printf("\nOavgjort!\n");
         }
     }
 
